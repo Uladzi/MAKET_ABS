@@ -1,0 +1,32 @@
+.pics div {
+    position: absolute;
+    left: 50%;
+}
+
+.pic-biohazard {
+    transform: translate(-110%, 20%);
+}
+
+.pic-biohazard:hover {
+    z-index: 1;
+}
+
+.pic-manAndWoman {
+    transform: translate(10%, 0);
+}
+
+.pic-manAndWoman:hover {
+    z-index: 1;
+}
+
+.pic-yinAndYang {
+    transform: translate(-50%, 95%);
+}
+
+.pic-yinAndYang:hover {
+    z-index: 1;
+}
+
+.pic-noSmoking {
+    transform: translate(-50%, 20%);
+}
