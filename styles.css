@@ -1,10 +1,20 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pics {
+    position: relative;
+    width: 0;
+    margin: auto;
+}
+
 .pics div {
     position: absolute;
-    left: 50%;
 }
 
 .pic-biohazard {
-    transform: translate(-110%, 20%);
+    right: 10px;
+    top: 20px;
 }
 
 .pic-biohazard:hover {
@@ -12,7 +22,8 @@
 }
 
 .pic-manAndWoman {
-    transform: translate(10%, 0);
+    left: 15px;
+    top: -5px;
 }
 
 .pic-manAndWoman:hover {
@@ -20,7 +31,8 @@
 }
 
 .pic-yinAndYang {
-    transform: translate(-50%, 95%);
+    top: 200px;
+    left: -100px;
 }
 
 .pic-yinAndYang:hover {
@@ -28,5 +40,6 @@
 }
 
 .pic-noSmoking {
-    transform: translate(-50%, 20%);
+    top: 50px;
+    left: -128px;
 }
