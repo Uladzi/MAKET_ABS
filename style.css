@@ -17,29 +17,23 @@ body {
     top: 20px;
 }
 
-.pic-biohazard:hover {
-    z-index: 1;
-}
-
 .pic-manAndWoman {
     left: 15px;
     top: -5px;
 }
 
-.pic-manAndWoman:hover {
-    z-index: 1;
-}
-
 .pic-yinAndYang {
-    top: 200px;
+    top: 180px;
     left: -100px;
-}
-
-.pic-yinAndYang:hover {
-    z-index: 1;
 }
 
 .pic-noSmoking {
     top: 50px;
     left: -128px;
+}
+
+.pic-biohazard:hover,
+.pic-manAndWoman:hover,
+.pic-yinAndYang:hover {
+    z-index: 1;
 }
